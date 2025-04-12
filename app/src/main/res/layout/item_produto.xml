@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/viewProduto"
+        android:layout_width="59dp"
+        android:layout_height="42dp"
+        android:onClick=""
+        app:srcCompat="@drawable/arrozfeijao">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingLeft="16dp"
+        android:text="Pizza Calabresa"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textPreco"
+        android:text="Preco: 12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:textSize="18sp"/>
+</LinearLayout>
